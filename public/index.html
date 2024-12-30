@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quick Share</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.8.1/socket.io.js" integrity="sha512-8BHxHDLsOHx+flIrQ0DrZcea7MkHqRU5GbTHmbdzMRnAaoCIkZ97PqZcXJkKZckMMhqfoeaJE+DNUVuyoQsO3Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Quick Share</h1>
+        <input type="file"  id="fileInput"/>
+        <button onclick="uploadFile()">Upload File Here</button>
+    </div>
+
+    <div class="files">
+        <h2>Shared Files</h2>
+        <div id="fileList"></div>
+    </div>
+
+        
+        <script src="./js/script.js"></script>
+</body>
+</html>
